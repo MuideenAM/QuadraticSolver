@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Quadratic Solver</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="solveForX">Calculate the Values of x</string>
+    <string name="a_value_holder">Enter the value of a (i.e. Coefficient of x-squared).</string>
+    <string name="project_describe">Solving a Quadratic equation of the form: ax squared plus bx
+        plus c equals zero using Quadratic formular x equals minus b plus or minus square-root of b
+        squared minus 4ac everything over 2a.</string>
+    <string name="b_value_holder">Enter the value of b (i.e. Coefficient of x).</string>
+    <string name="c_value_holder">Enter the value of c (i.e. The constant term).</string>
+    <string name="solution_display">Values of x here.</string>
+    <string name="reset">Reset</string>
+</resources>

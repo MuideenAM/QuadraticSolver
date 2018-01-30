@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/project_describe"
+        android:layout_margin="10dp"
+        android:src="@drawable/quadratic"/>
+
+    <EditText
+        android:id="@+id/b_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:padding="10dp"
+        android:hint="@string/b_value_holder" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/prev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="@string/previous"/>
+
+        <Button
+            android:id="@+id/next_a_and_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@id/prev"
+            android:layout_toRightOf="@id/prev"
+            android:layout_marginLeft="210dp"
+            android:layout_marginStart="210dp"
+            android:text="@string/next"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
